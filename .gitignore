@@ -1,0 +1,24 @@
+# ---------- Frontend ----------
+node_modules/
+dist/
+dist-ssr/
+.env
+.env.local
+
+# ---------- Backend ----------
+target/
+build/
+*.log
+application-local.properties
+
+# ---------- Database ----------
+*.db
+*.sqlite
+*.sqlite3
+*.mv.db
+*.trace.db
+
+# ---------- IDE / OS ----------
+.idea/
+.vscode/
+.DS_Store

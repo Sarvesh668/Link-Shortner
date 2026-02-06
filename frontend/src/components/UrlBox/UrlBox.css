@@ -1,0 +1,25 @@
+.url-box {
+  width: min(90%, 480px);
+  height: 70px;
+
+  padding: 0 20px;
+  font-size: 1rem;
+
+  color: #333;
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+
+  border: 2px dashed var(--dashed-border);
+  border-radius: 12px;
+
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.url-box::placeholder {
+  color: #888;
+}
+
+.url-box:focus {
+  border-color: rgba(100, 160, 255, 0.8);
+}
